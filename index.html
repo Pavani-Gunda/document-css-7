@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-box</title>
+    <link rel="stylesheet"href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>MASTERY GAMES</h1>
+            <h3>create your account</h3>
+            <form action="account-created.html"method="get"required>
+                <input type="text"name="username"placeholder="username"required pattern="[A-Z a-z]+{4,20}">
+                <br>
+                <br>
+                <input type="text"name="email"placeholder="Email-Id"required pattern="[a-z 0-9c-.]+gamil\.com">
+                <br>
+                <br>
+                <input type="text"name="password"placeholder="password"required pattern="(?=.*[a-z]).{8,16}">
+                <br>
+                <br>
+                <input type="submit"value="Create Account"class="box-1">
+            </form>
+            <div class="item">
+            
+            <span>Already have a Mastery Games account?</span>
+            <a href="account-created.html">signin</a></div>
+            
+            
+        </div>
+    </div>
+</body>
+</html>
